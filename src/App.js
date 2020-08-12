@@ -4,7 +4,7 @@ import "./App.css";
 import ListaInmuebles from "./componentes/vistas/ListaInmuebles";
 import AppNavbar from "./componentes/layout/AppNavbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import MuiThemeProvider from "@material-ui/core/styles/MuiThemeProvider";
+import { ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles';
 import theme from "./theme/theme";
 import RegistrarUsuario from './componentes/seguridad/RegistrarUsuario';
 
